@@ -1,0 +1,241 @@
+/* atur ulang margin dan padding agar tidak 
+menggunakan style bawaan dari browser  */
+
+/* background dari desain web berwarna abu-abu */
+body{
+	background-color:#DDDDDD;
+	font-family:calibri, segoe ui, arial, tahoma, sans-serif;
+
+}
+
+
+.header{
+	background: url(images/header.jpg) repeat-x #555;
+	padding:20px;
+	overflow : hidden;
+	border-radius: 5px;	
+	height: auto;
+}
+header img{ margin-left: 35px; margin-top: 10px; width:50px; }
+
+.wrapper{
+	width : 99%;
+	overflow: hidden; /
+}
+
+nav.menu {
+	overflow: hidden;
+  }
+
+nav.menu ul{
+    float: left;
+    padding: 0;
+    width: 100%;
+	margin: 0 0 0;
+   
+}
+
+nav.menu li{
+	float:left;
+	padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav.menu li a{
+	float: left;
+	display: block;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.menu a:hover{
+	background-color: rgb(190, 187, 184);
+	display: block;
+}
+  
+#header form{
+	float:right;
+	margin-top:20px;
+	margin-right: 10px;
+}
+
+.konten{
+	
+	float: left;
+}
+.artikel{
+	width: 680px;
+    padding: 25px;
+    margin: 25px 25px 25px;
+    background: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 5px;	
+
+
+}
+.artikel img{
+	float:left;
+	min-width: 200px;
+	margin: 0px 10px 0px 0px;
+	max-width: 200px;
+	
+}
+
+.artikel b{
+	color:#616060;
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin: -10px 0 15px;
+	float: none;
+	text-transform: uppercase;
+}
+
+.artikel p:last-child{
+	margin:10px 0;
+	}
+
+.artikel a{
+	display:block;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 600;
+	margin-right: 25px;
+	float:right;
+	color:#636363;
+}
+
+.button {
+	background-color: #4CAF50; /* ijo */
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	width: 120px;
+  }
+  .button {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+  }
+  
+  .button:hover {
+	background-color: #555555;
+	color: white;
+  }
+.sidebar {
+	float: left;
+	width: 40%;
+	
+}
+
+.sidebar .widget {
+	padding: 25px;
+    margin: 25px 25px 0;
+    border-bottom: 2px solid #ffffff;
+    transition: all 0.5s ease;
+}
+
+.sidebar .widget h2{
+	padding: 25px;
+	font-size:18px;
+	font-weight: 800;
+	margin:0 0 10px;
+	border-bottom: 2px solid #ffffff;
+	text-transform: uppercase;
+}
+
+.sidebar .widget p{
+	line-height:20px;
+	font-size: 14px;
+	color : #636363;
+}
+
+.sidebar .widget ul li a{
+	color:#636363;
+	text-decoration:underline;
+}
+
+.sidebar .widget ul a:hover {
+	margin-left : 25px;
+	background-color: rgb(184, 176, 170);
+}
+
+.footer{
+	clear:both;
+	margin: 0;
+	text-align:center;
+	background-color: #f0f0f0;
+	padding:5px;
+	color:#555555;
+	left: 0;
+	bottom: 0;
+	width: 99%;
+	border-radius: 5px;	
+
+	
+
+}
+.search .search-form {
+	 	
+		width: 20%;
+		padding: 12px;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		float: right;
+		
+	  
+}
+
+
+/* untuk contact */
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #5e635e;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #5e635e;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+
